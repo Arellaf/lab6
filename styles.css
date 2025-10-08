@@ -10,9 +10,8 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 /* header */
@@ -136,11 +135,10 @@ main {
   display: flex;
   justify-content: center;
   gap: 30px;
-  flex-wrap: wrap;
 }
 
 .card {
-  width: 280px;
+  width: 350px;
   padding: 25px;
   border-radius: 12px;
   background: linear-gradient(135deg, #fafafa, #f5f4f4);

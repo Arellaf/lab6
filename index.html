@@ -12,8 +12,9 @@
 </head>
 
 <body>
-  <div class="container">
-    <header>
+
+  <header>
+    <div class="container">
       <nav>
         <div class="logo">Website</div>
         <ul class="nav-links">
@@ -24,10 +25,12 @@
           <li><a href="#contact">Контакти</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <section class="font-section">
+  <main>
+    <div class="container">
+      <section class="font-section" id="fonts">
         <h2>Демонстрація шрифтів та дизайнерських елементів</h2>
         <div class="card-container">
           <div class="card font1">
@@ -46,27 +49,26 @@
               aspernatur?</p>
           </div>
         </div>
-
         <button class="classic-btn">Дізнатися більше</button>
       </section>
 
-      <section class="svg-section">
+      <section class="svg-section" id="svg">
         <h2>SVG з ефектами при наведенні</h2>
         <div class="svg-gallery">
-          <div class="svg-gallery">
-            <img src="img/svg1.svg" class="svg-icon" />
-            <img src="img/svg2.svg" class="svg-icon" />
-            <img src="img/svg3.svg" class="svg-icon" />
-            <img src="img/png4.png" class="svg-icon" />
-          </div>
+          <img src="img/svg1.svg" class="svg-icon" />
+          <img src="img/svg2.svg" class="svg-icon" />
+          <img src="img/svg3.svg" class="svg-icon" />
+          <img src="img/png4.png" class="svg-icon" />
         </div>
       </section>
-    </main>
+    </div>
+  </main>
 
-    <footer>
+  <footer>
+    <div class="container">
       <p>© 2025 website | lab6</p>
-    </footer>
-  </div>
-</body>
+    </div>
+  </footer>
 
+</body>
 </html>
